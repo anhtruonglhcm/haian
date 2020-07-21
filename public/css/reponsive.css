@@ -1,0 +1,89 @@
+@media (max-width: 767px){
+	.header-bot{
+		display: flow-root;
+	}
+	.top ul{
+		width: 100%;
+	}
+	.top{
+		float: none;
+	}
+	.text a {
+    float: none;
+    margin-left: 35%;
+}
+
+.box2 {
+    padding: 0px 30px;
+}
+
+.items {
+    height: 180px;
+}
+
+.form-ct {
+    display: inline-block;
+}
+
+.form-ct input {
+    margin-bottom: 10px;
+}
+
+.footer {background-size: cover;}
+
+.anh {
+    height: auto;
+}
+.booking{
+	background-size: cover!important;
+	padding-bottom: 2%;
+}
+
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+	#main-menu{
+		margin-top: 0px;
+	}
+	.top ul{
+		width: 100%;
+	}
+	.top {
+		float: left;
+	}
+	.footer{
+		padding-bottom: 1%;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+	.booking{
+	background-size: cover!important;
+	padding-bottom: 2%;
+}
+
+	#main-menu{
+		margin-top: 0px;
+	}
+	.form-ct input{
+		margin-right: 50px;
+	}
+	.top ul{
+		width: 100%;
+	}
+	.top {
+		float: left;
+	}
+	.footer{
+		background-size: cover;
+	}
+	.box2{
+		padding: 0px 60px;
+	}
+	.right{
+		float: none;
+	}
+	.noidung2{
+		float: left;
+	}
+
+}

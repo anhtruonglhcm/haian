@@ -1,0 +1,276 @@
+@font-face {
+    font-family: SlabBold;
+    src: url('font/#9SLIDE03ROBOTOBOLD.TTF');
+}
+@font-face {
+    font-family: SlabLight;
+    src: url('font/#9SLIDE03ROBOTOLIGHT.TTF');
+}
+@font-face {
+    font-family: SlabThin;
+    src: url('font/#9Slide03RobotoSlabThin.ttf');
+}
+body{
+    font-family: SlabThin;
+  margin:0;
+  padding:0;
+}
+
+h2{
+    font-family: SlabBold;
+}
+p{
+    font-family: SlabThin;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+nav.nav-hd {
+    background: black;
+    height: 45px;
+}
+
+.top {
+    padding: 5px 0px;
+    float: right;
+    text-align: center;
+}
+
+.top ul li {
+    color: white;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.top ul {
+    width: 60%;
+    margin: auto;
+}
+
+.top ul li input {width: 200px;padding: 5px;border-radius: 5px;}
+
+.header-bot ul li {
+
+
+    float: left;
+    margin-right: 30px;
+    font-size: 18px;
+    list-style: none;
+
+}
+.header-bot{
+        display: flex;
+    text-align: center;
+    padding: 20px 0px;
+}
+.fl {
+    margin:0px!important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img {
+    width: 50%;
+    height: 50%;
+}
+.footer{
+    color: white;
+    background: url('../images/bannerft.png') no-repeat;
+    background-size: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.layer1{
+    background: url(../images/Layer2.png) no-repeat;
+    background-size: cover;
+}
+.bo-pg{
+    margin: 0;
+    padding:0;
+    
+}
+.height{
+    height: 300px;
+}
+.anh {
+    width: 100%;
+    height: 100%;
+}
+.text{
+    color: white;
+    padding: 20px 20px 0px 60px;
+}
+.text a {
+    text-decoration: none;
+    width: 90px;
+    float: right;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.items {
+    margin: 10px 0px 30px 0px;
+    display: flex!important;
+    height: 250px;
+    /* padding: 0px 120px; */
+}
+
+.title {
+    color: white;
+    text-align: center;
+    width: 125px;
+    margin: 20px auto;
+    background: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.title h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.cottrai {
+    padding-left: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+.cotphai img {
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.form-ct{
+    display: flex;
+    flex-direction: row;
+}
+.form-ct input {
+    margin-right: 78px;
+    border: 1px solid black;
+}
+
+.title2 {
+    text-align: center;
+}
+.box2{
+    margin-bottom: 30px;
+    padding: 0px 120px;
+}
+.black {
+    background: black;
+}
+
+.right {
+    float: right;
+}
+.noidung {
+    display: inline-block;
+    float: left;
+}
+.noidung2 {
+    display: inline-block;
+    float: right;
+}
+.lienhe{
+    padding: 60px 0px;
+    border-top: 1px solid black; 
+}
+.gioithieu {
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.thuonghieu{
+    border-top: 1px solid black;
+    padding: 60px 0px;
+}
+.boxtt{
+    padding: 30px 0px;
+    border-top: 1px solid black;
+
+}
+.tintuc{
+    margin: 0px 30px 20px 30px;
+}
+.noidung-tt b{
+    text-transform: uppercase;
+}
+.booking{
+   
+padding-top: 5%;
+   
+padding-bottom: 32%;
+}
+
+.booking input {
+    height: 40px;
+    background-color: black;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+}
+
+.content textarea {
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+}
+.gui {
+    text-align: center;
+    margin-top: 30px;
+}
+.bts {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.bts:hover {
+    background: #ffd5d5;
+}
+.fd{
+    margin:0px;
+}
+
+.thanks {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.thanks2 {
+    font-size: 18px;
+}
+.top ul li a {
+    vertical-align: sub;
+    color: white;
+    text-decoration: none;
+}
+
+.top ul li a:hover {
+    color: #0a5488;
+}
+form.form1 {
+    width: 100%;
+    position: relative;
+}
+
+button.btsr.fa.fa-search {
+    position: absolute;
+    right: 0;
+    color: #afafaf;
+    border: none;
+    background: none;
+    font-size: 22px;
+    top: 5px;
+}
+
+button.btsr.fa.fa-search:hover {
+    color: black;
+}
+li.tha {
+    width: 8%;
+}

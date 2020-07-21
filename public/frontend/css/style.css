@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Slab Bold';
+    src: url('../css/font/RobotoCondensed-Light.ttf');
+}
+@font-face {
+    font-family: 'Slab Light';
+    src: url('../font/#9Slide03RobotoSlabLight.ttf');
+}
+@font-face {
+    font-family: 'Slab Thin';
+    src: url('../font/#9Slide03RobotoSlabThin.ttf');
+}
+body{
+    font-family: 'Slab Bold';
+  margin:0;
+  padding:0;
+}
+*{
+    font-family: 'Slab Light';
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+h2{
+    font-family: 'Slab Bold';
+}
+p{
+    font-family: 'Slab Light';
+
+}
